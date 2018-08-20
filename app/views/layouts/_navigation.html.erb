@@ -1,0 +1,28 @@
+<ul class="nav navbar-nav">
+  <li>
+    <%= link_to('<span class="glyphicon glyphicon-home"></span> Welcome'.html_safe, root_path) %>
+  </li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+  <% if current_user %>
+    <li>
+      <%= link_to('<span class="glyphicon glyphicon-cog"></span> Settings'.html_safe, edit_user_registration_path) %>
+    </li>
+    <li>
+      <%=
+        link_to(
+            '<span class="glyphicon glyphicon-lock"></span> Log Out'.html_safe, destroy_user_session_path,
+            method: 'delete'
+          )
+      %>
+    </li>
+  <% else %>
+
+    <li>
+      <%= link_to('<span class="glyphicon glyphicon-log-in"></span> Login'.html_safe, new_user_session_path) %>
+    </li>
+    <li>
+      <%= link_to('<span class="glyphicon glyphicon-saved"></span> Register'.html_safe, new_user_registration_path) %>
+    </li>
+  <% end %>
+</ul>
