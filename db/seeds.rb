@@ -1,27 +1,27 @@
 User.delete_all
+password = 'secret-password'
+admin_email = 'admin@gmail.com'
+regular_user_email = 'regular-user@gmail.com'
 
 admin =  User.new({
-   email: 'candidate@gmail.com',
-    first_name: 'star',
-    last_name: 'engineer',
-    password: 'password',
-    password_confirmation: 'password',
+   email: admin_email,
+    first_name: 'admin',
+    last_name: 'user',
+    password: password,
+    password_confirmation: password,
     admin: true
 })
 
 admin.save
+ap "Created Admin user with email: #{admin_email} and password: #{password} "
 
-20.times do
-  first_name = Faker::Name.first_name
-  last_name = Faker::Name.last_name
-  email = Faker::Internet.email("#{first_name}-#{last_name}")
-  password = "password"
-  user = User.new(
-    { email: email,
-      first_name: first_name,
-      last_name: last_name,
-      password: password,
-      password_confirmation: password
-    })
-  user.save
-end
+regular_user =  User.new({
+  email: regular_user_email,
+  first_name: 'regular',
+  last_name: 'user',
+  password: password,
+  password_confirmation: password,
+})
+
+regular_user.save
+ap "Created non Admin user with email: #{regular_user_email} and password: #{password} "

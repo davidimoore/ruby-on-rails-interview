@@ -13,9 +13,16 @@
         link_to(
             '<span class="glyphicon glyphicon-lock"></span> Log Out'.html_safe, destroy_user_session_path,
             method: 'delete'
-          )
+        )
       %>
     </li>
+
+    <% if current_user.admin %>
+      <li>
+        <%= link_to('<span class="glyphicon glyphicon-user"></span> Users'.html_safe, users_path) %>
+      </li>
+    <% end %>
+
   <% else %>
 
     <li>
