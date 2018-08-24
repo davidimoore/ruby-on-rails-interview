@@ -4,7 +4,7 @@ The objective of this take home interview project is to develop a Twitter like a
 Feel free to use any libraries, tools, or techniques that you normally would to build a rails application. 
 We want to see how you work in your own environment.
 
-Please make sure to fork this repo. When you are finished please provide a link to the repo so we can take a look.
+Please make sure to clone this repo. When you are finished please provide a link to the repo so we can take a look.
 
 To get started you'll need to run `bin/setup`. You can see in the `db/seeds.rb` file that two users are created: an
 admin and a regular user. This app also comes with `devise` already added for authentication. 
