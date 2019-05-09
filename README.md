@@ -1,6 +1,6 @@
 ## Ruby on Rails Technical Interview
 
-The objective of this take home interview project is to develop a Twitter like application. 
+The objective of this interview project is to develop a Twitter like application. 
 Feel free to use any libraries, tools, or techniques that you normally would to build a rails application. 
 We want to see how you work in your own environment.
 
