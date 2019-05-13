@@ -19,7 +19,7 @@ Requirements:
 1. Create a Tweet model that has create, read, update and delete (CRUD) functionality. You should have an page to show
 a list of all Tweets that have been created. The Tweet only needs to be in text. 
 
-2. Update the Tweet index page so that the results are paginated and ordered in chronological order.
+2. Update the Tweet index page so that the results are paginated and ordered showing the last updated tweet first.
 
 3. Update the pages related to Tweets to only allow the Author to make 
 changes to their own Tweets. Any user can view the the list of Tweets.
