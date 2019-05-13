@@ -21,16 +21,10 @@ a list of all Tweets that have been created. The Tweet only needs to be in text.
 
 2. Update the Tweet index page so that the results are paginated and ordered showing the last updated tweet first.
 
-3. Update the pages related to Tweets to only allow the Author to make 
-changes to their own Tweets. Any user can view the the list of Tweets.
-
-4. We need to make sure Administrators can manage any Tweets. Update the pages related to Tweets to 
-allow the Admin of a Tweet to make changes to any Tweets.
-
-5. Users like to respond to Tweets with Replies of their own. Create a way for users to Reply to Tweets. 
+3. Users like to respond to Tweets with Replies of their own. Create a way for users to Reply to Tweets. 
 The Replies only should allow for a simple text message. Just a simple text Reply to a Tweet.
 
-6. Update the Tweet show page so it shows all of its replies in chronological order.
+4. Update the Tweet show page so it shows all of its replies in chronological order.
 
-7. Create a way for users to reply to a Tweet with an Image. You don't need to worry about allowing a user to include
+5. Create a way for users to reply to a Tweet with an Image. You don't need to worry about allowing a user to include
 a comment to the image. You also don't need to worry about making a way for users to reply to images either.
