@@ -24,7 +24,7 @@ a list of all Tweets that have been created. The Tweet only needs to be in text.
 3. Users like to respond to Tweets with Replies of their own. Create a way for users to Reply to Tweets. 
 The Replies only should allow for a simple text message. Just a simple text Reply to a Tweet.
 
-4. Update the Tweet show page so it shows all of its replies in chronological order.
+4. Update the Tweet list page so each Tweet shows all of its replies in chronological order.
 
 5. Create a way for users to reply to a Tweet with an Image. You don't need to worry about allowing a user to include
 a comment to the image. You also don't need to worry about making a way for users to reply to images either.
