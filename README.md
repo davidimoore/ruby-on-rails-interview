@@ -28,8 +28,7 @@ changes to their own Tweets. Any user can view the the list of Tweets.
 allow the Admin of a Tweet to make changes to any Tweets.
 
 5. Users like to respond to Tweets with Replies of their own. Create a way for users to Reply to Tweets. 
-The Replies only should allow for a simple text message. You don't need to worry about
-making a way for users to reply to other replies. Just a simple text Reply to a Tweet.
+The Replies only should allow for a simple text message. Just a simple text Reply to a Tweet.
 
 6. Update the Tweet show page so it shows all of its replies in chronological order.
 
