@@ -23,13 +23,10 @@ Good luck!
 
 Requirements:
 1. Create a Tweet model with a message attribute. Each tweet will belong to a user.
-   
 2. Create page to show a list of all Tweets that is visible to everyone. Each tweet will show
    message and the username of the user who created it.
-   
 3. Update the Tweet index page so that the results are paginated and ordered showing the last
    updated tweet first.
-   
 4. Users like to respond to Tweets with Replies of their own. Create a way for users to reply to
    Tweets. The replies only should allow for a simple text message. Just a simple text Reply to a
    Tweet.
