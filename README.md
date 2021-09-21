@@ -34,6 +34,5 @@ Requirements:
 5. Update the list page of tweets. Each tweet message should be a link to a tweet page. The page
    will show a list of all replies in the order they were created.
 
-6. Create a way for users to reply to a Tweet with an Image. You don't need to worry about allowing
-   a user to include a comment to the image. Users should be able to reply to the image reply with
+6. Create a way for users to reply to a Tweet with an Image. Users should be able to reply to the image reply with
    text or an image.
