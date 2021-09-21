@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+system("docker exec -u root -it $(docker ps | grep web | awk '{print $1}') /bin/bash")
+
